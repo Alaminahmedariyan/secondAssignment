@@ -1,0 +1,47 @@
+body{font-family:'Work Sans',sans-serif}
+p{color: #727272;}
+/*------------------------- this is header part styles ------------------ */
+header{background:rgba(255,144,14,.1);padding:50px 240px;}
+/*------------------------- this is nav part styles --------------------- */
+nav{display:flex;justify-content:space-between;align-items: center;}
+nav h2{font-weight: 700;font-size: 45px;}
+.nav-bar ul{display:flex;gap:30px}
+.nav-bar ul li{list-style:none}
+.nav-bar ul a{text-decoration:none;font-family:'Work Sans';font-style:normal;font-weight:500;font-size:18px;line-height:26px}
+/*------------------------------ brand part styles -----------------------*/
+.brand h1{text-align:center;font-weight: 700;font-size: 64px;}
+.brand p{text-align: center;}
+.button-style{ text-align: center;}
+.button-style button{color: white;background-color: #FF900E;border: none;border-radius: 5px;font-weight: 600;font-size: 20px;padding: 21px;margin-bottom: 50px;}
+/* header{width: 1920px;height: 1322px;left: 0px;top: 0px;} */
+header img{height: 100%;width: 100%; padding-bottom: 50px;}
+/* -------------------main part styles ------------------ */
+main{left: 0px;top: 0px;padding:50px 240px;}
+/*----------------------- section-1 style ------------------------- */
+.section-1 {display: flex;align-items: center;gap: 73px;}
+.team-work{display: grid; grid-template-columns: repeat(2,1fr);gap: 20px;}
+.features h2{text-align: center;font-weight: 500;font-size: 45px;}
+#color-1{color: #727272;}
+#color-2{color: #131313;}
+#color-3{color: #FF900E;}
+#btn-style{color: white;background-color: #FF900E;border: none;border-radius: 5px;font-weight: 600;font-size: 20px;padding: 21px;}
+/*------------------------------------- section-2 styles  ----------------------------*/
+.section-2{display: flex; gap: 54px;margin-top: 150px;}
+.section-2 h2{font-weight: 700;font-size: 45px;color: #131313;}
+.block-details{margin: 30px;padding: 5px;}
+.block-details h5{color: #131313;font-weight: 600;font-size: 20px;}
+#btn-3{color: white;background-color: #FF900E;border: none;border-radius: 5px;padding: 45px;padding-top: 10px;margin-top: -120px;}
+#btn-3 h5{font-weight: 700;font-size: 65px;margin-bottom: 0px;} 
+#btn-3 p{font-weight: 500;font-size: 25px;color: #FFFFFF;}
+/* ------------------------------------------section-3 styles ------------------------ */
+.section-3 h2{font-weight: 700;font-size: 45px;}
+.container{display: flex; gap: 125px;}
+.container div{display: flex;flex-direction: column;align-items: center; padding: 60px;}
+/*--------------------- footer part styles-----------------  */
+footer{left: 0px;top: 0px;padding:50px 240px;}
+.sponsors{margin-bottom: 50px;}
+.sponsors h2{font-weight: 700;font-size: 45px;text-align: center;}
+.sponsors p{text-align: center;}
+.container-footer{display: flex;gap: 155px;}
+footer .p-text{text-align: center;padding: 39px 410px;background: #FFF4E7;border-radius: 8px;color: #424242;}
+
